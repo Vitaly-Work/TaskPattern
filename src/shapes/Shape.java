@@ -1,6 +1,5 @@
 package shapes;
 
-public class Shape {
-    private String name;
+public abstract class Shape {
     private int id;
 }
