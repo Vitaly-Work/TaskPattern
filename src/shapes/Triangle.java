@@ -1,4 +1,13 @@
 package shapes;
 
-public class Triangle {
+public abstract class Triangle {
+    private int perimetr;
+
+    public void setPerimetr( int newPerimetr) {
+        perimetr = newPerimetr;
+    }
+
+    public int getPerimetr() {
+        return perimetr;
+    }
 }

@@ -1,4 +1,13 @@
 package shapes;
 
-public class Circle {
+public abstract class Circle {
+    private int radius;
+
+    public void setRadius(int newRadius) {
+        radius = newRadius;
+    }
+
+    public int getRadius() {
+        return radius;
+    }
 }
