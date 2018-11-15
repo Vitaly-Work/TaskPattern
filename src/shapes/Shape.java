@@ -16,32 +16,9 @@ public abstract class Shape {
     }
 
     abstract public String Draw();
-    /*private int id;
-    private int xHeadPoint;
-    private int yHeadpoint;
 
-    public void SetId(int newId) {
-        id = newId;
+    @Override
+    public String toString() {
+        return "Class name: " + getClass().getName() + " whit id: " + id;
     }
-
-    public void setXHeadPoint(int newX) {
-        xHeadPoint = newX;
-    }
-
-    public void setYHeadPoint(int newY) {
-        yHeadpoint = newY;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public int getXHeadPoint() {
-        return xHeadPoint;
-    }
-
-    public int getYHeadpoint() {
-        return yHeadpoint;
-    }
-*/
 }

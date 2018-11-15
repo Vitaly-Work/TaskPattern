@@ -8,13 +8,9 @@ public abstract class Circle extends Shape{
 
     @Override
     public abstract String Draw();
-/*    private int radius;
 
-    public void setRadius(int newRadius) {
-        radius = newRadius;
+    @Override
+    public String toString() {
+        return super.toString() + " whit radius: " + radius;
     }
-
-    public int getRadius() {
-        return radius;
-    }*/
 }

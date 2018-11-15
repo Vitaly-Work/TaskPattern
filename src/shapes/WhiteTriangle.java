@@ -17,4 +17,8 @@ public class WhiteTriangle extends Triangle{
         return colour + " Triangle with id - " + id + " and radius " + perimeter;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " WhiteTriangle";
+    }
 }

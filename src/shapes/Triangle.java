@@ -8,13 +8,9 @@ public abstract class Triangle extends Shape{
 
     @Override
     public abstract String Draw();
-/*    private int perimetr;
 
-    public void setPerimetr( int newPerimetr) {
-        perimetr = newPerimetr;
+    @Override
+    public String toString() {
+        return super.toString() + " whit perimetr: " + perimetr;
     }
-
-    public int getPerimetr() {
-        return perimetr;
-    }*/
 }

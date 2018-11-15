@@ -16,4 +16,9 @@ public class WhiteCircle extends Circle {
     public String Draw() {
         return colour + " Circle with id - " + id + " and radius " + radius;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + " WhiteCircle";
+    }
 }
