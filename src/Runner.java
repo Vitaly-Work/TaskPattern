@@ -1,4 +1,5 @@
 import static common.Color.*;
+import shapes.*;
 
 import factories.AbstractFactory;
 import factories.BaseFactory;
@@ -12,6 +13,7 @@ public class Runner {
         System.out.println("Built: " + bf);
 
         //create shapes on factories
+
 
         //demonstrate shapes to user
 
