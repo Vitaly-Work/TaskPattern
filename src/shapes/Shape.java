@@ -4,7 +4,8 @@ import common.Material;
 
 public abstract class Shape {
 
-    Material material;
+    private int id;
+    private Material material;
 
     public Material getMaterial() {
         return material;
@@ -13,8 +14,6 @@ public abstract class Shape {
     public void setMaterial(Material material) {
         this.material = material;
     }
-
-    private int id;
 
     abstract public String Draw();
     /*private int id;
