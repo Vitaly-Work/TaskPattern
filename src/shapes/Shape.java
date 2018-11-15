@@ -2,6 +2,7 @@ package shapes;
 
 public abstract class Shape {
 
+
     private int id;
 
     abstract public String Draw();

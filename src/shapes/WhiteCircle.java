@@ -2,6 +2,7 @@ package shapes;
 
 public class WhiteCircle extends Circle {
 
+
     private static String colour = "WHITE";
     private int id;
     private double radius;

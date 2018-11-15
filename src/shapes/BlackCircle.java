@@ -3,6 +3,7 @@ package shapes;
 public class BlackCircle extends Circle {
 
     private static String colour = "BLACK";
+
     private int id;
     private double radius;
 

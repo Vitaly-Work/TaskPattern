@@ -2,6 +2,7 @@ package shapes;
 
 public class WhiteTriangle extends Triangle{
 
+
     private static String colour = "WHITE";
     private int id;
     private double perimeter;

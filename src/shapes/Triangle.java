@@ -2,6 +2,7 @@ package shapes;
 
 public abstract class Triangle extends Shape{
 
+
     private int id;
     private double perimetr;
 
