@@ -15,10 +15,8 @@ public abstract class Shape {
         this.material = material;
     }
 
-    abstract public String Draw();
-
     @Override
     public String toString() {
-        return "Class name: " + getClass().getName() + " whit id: " + id;
+        return getClass().getSimpleName() + " of " + material;
     }
 }
