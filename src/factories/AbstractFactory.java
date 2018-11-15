@@ -7,13 +7,20 @@ import common.Color;
  * by {@code static} method
  */
 public class AbstractFactory {
-    public static BaseFactory getFactory(Color color, String name) {
+    public static BaseFactory getFactory(Color color, String fabName) {
+        BaseFactory f = null;
         if (color != null) {
             switch (color) {
                 case WHITE:
-                    return new WhiteFactory(name);
+                    f = new WhiteFactory();
+                    f.setName(fabName);
+                    return f;
                 case BLACK:
-                    return new BlackFactory(name);
+                    f = new BlackFactory();
+                    f.setName(fabName);
+                    return f;
+                default:
+                    throw new IllegalArgumentException("This color is not supported now!");
             }
         }
         throw new IllegalArgumentException("Color cannot be null!");

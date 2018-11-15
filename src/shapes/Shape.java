@@ -1,6 +1,18 @@
 package shapes;
 
+import common.Material;
+
 public abstract class Shape {
+    Material material;
+
+    public Material getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(Material material) {
+        this.material = material;
+    }
+/*
     private int id;
     private int xHeadPoint;
     private int yHeadpoint;
@@ -28,5 +40,6 @@ public abstract class Shape {
     public int getYHeadpoint() {
         return yHeadpoint;
     }
+*/
 
 }
