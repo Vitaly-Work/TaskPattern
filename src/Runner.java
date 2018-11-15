@@ -12,6 +12,7 @@ public class Runner {
         System.out.println("Built: " + wf);
         BaseFactory bf = AbstractFactory.getFactory(BLACK, "Lviv chocolate");
         System.out.println("Built: " + bf);
+
         System.out.println("\nCreating circles on " + wf);
         for (int i = 0; i < 3; i++) {
             Shape sh = wf.createCircle();
@@ -32,7 +33,5 @@ public class Runner {
             Shape sh = bf.createTriangle();
             System.out.println("   " + sh);
         }
-
-
     }
 }
