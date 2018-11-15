@@ -3,13 +3,13 @@ package factories;
 import common.Color;
 
 /**
- * Creates factories of given specialization
+ * Creates factories of given specialization and name
  * by {@code static} method
  */
 public class AbstractFactory {
     public static BaseFactory getFactory(Color color, String fabName) {
-        BaseFactory f = null;
         if (color != null) {
+            BaseFactory f;
             switch (color) {
                 case WHITE:
                     f = new WhiteFactory();

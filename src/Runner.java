@@ -1,4 +1,5 @@
 import static common.Color.*;
+import shapes.*;
 
 import factories.AbstractFactory;
 import factories.BaseFactory;
@@ -12,6 +13,12 @@ public class Runner {
         System.out.println("Built: " + bf);
 
         //create shapes on factories
+        System.out.println("Create circles on " + wf);
+        for (int i=0; i<3; i++){
+            Shape sh = wf.createCircle();
+            System.out.println(sh);
+        }
+
 
         //demonstrate shapes to user
 
