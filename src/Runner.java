@@ -12,14 +12,14 @@ public class Runner {
         BaseFactory bf = AbstractFactory.getFactory(BLACK, "Lviv chocolate");
         System.out.println("Built: " + bf);
 
-        //create shapes on factories
+
         System.out.println("Create circles on " + wf);
         for (int i=0; i<3; i++){
             Shape sh = wf.createCircle();
-            System.out.println(  sh);
+            System.out.println("   " +  sh);
         }
 
-        System.out.println("Create circles on " + wf);
+        System.out.println("Create circles on " + bf);
         for (int i=0; i<3; i++){
             Shape sh = bf.createCircle();
             System.out.println("   " +sh);
@@ -30,7 +30,7 @@ public class Runner {
             Shape sh = wf.createTriangle();
             System.out.println("   " +sh);
         }
-        System.out.println("Create triangle on " + wf);
+        System.out.println("Create triangle on " + bf);
         for (int i=0; i<3; i++){
             Shape sh = bf.createTriangle();
             System.out.println("   " +sh);
@@ -38,7 +38,7 @@ public class Runner {
 
 
 
-        //demonstrate shapes to user
+
 
 
 
