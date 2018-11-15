@@ -2,5 +2,7 @@
 out/
 log.out
 *.iml
+*.classpath
+*.project
 target/
 /class/

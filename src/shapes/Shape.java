@@ -1,13 +1,7 @@
 package shapes;
 
 public abstract class Shape {
-
-
     private int id;
-
-    abstract public String Draw();
-
-/*    private int id;
     private int xHeadPoint;
     private int yHeadpoint;
 
@@ -33,6 +27,6 @@ public abstract class Shape {
 
     public int getYHeadpoint() {
         return yHeadpoint;
-    }*/
+    }
 
 }
