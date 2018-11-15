@@ -4,7 +4,6 @@ import common.Material;
 
 public abstract class Shape {
 
-    private int id;
     private Material material;
 
     public Material getMaterial() {
