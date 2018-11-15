@@ -1,5 +1,5 @@
 package shapes;
 
-public abstract class Triangle extends Shape{
+public abstract class Triangle extends Shape {
 
 }

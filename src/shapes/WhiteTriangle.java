@@ -1,6 +1,6 @@
 package shapes;
 
-public class WhiteTriangle extends Triangle{
+public class WhiteTriangle extends Triangle {
 
 
 }

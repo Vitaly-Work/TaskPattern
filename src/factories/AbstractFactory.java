@@ -13,11 +13,11 @@ public class AbstractFactory {
             switch (color) {
                 case WHITE:
                     f = new WhiteFactory();
-                    f.setName(fabName);
+                    f.setName(fabName.toUpperCase());
                     return f;
                 case BLACK:
                     f = new BlackFactory();
-                    f.setName(fabName);
+                    f.setName(fabName.toUpperCase());
                     return f;
                 default:
                     throw new IllegalArgumentException("This color is not supported now!");

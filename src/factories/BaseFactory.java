@@ -22,7 +22,6 @@ public abstract class BaseFactory {
 
     abstract public Triangle createTriangle();
 
-
     public String getName() {
         return name;
     }
@@ -33,6 +32,6 @@ public abstract class BaseFactory {
 
     @Override
     public String toString() {
-        return getClass().getSimpleName() + " named \"" + name.toUpperCase() + "\"";
+        return getClass().getSimpleName() + " named \"" + name + "\"";
     }
 }

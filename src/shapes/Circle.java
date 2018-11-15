@@ -1,6 +1,6 @@
 package shapes;
 
-public abstract class Circle extends Shape{
+public abstract class Circle extends Shape {
 
 
 }
