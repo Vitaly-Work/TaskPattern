@@ -15,4 +15,9 @@ public class BlackFactory extends BaseFactory {
         item.setMaterial(getNewMaterial());
         return item;
     }
+
+    @Override
+    public String toString() {
+        return "Black Factory named " + getName();
+    }
 }

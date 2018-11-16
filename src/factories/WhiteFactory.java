@@ -16,4 +16,9 @@ public class WhiteFactory extends BaseFactory {
         item.setMaterial(getNewMaterial());
         return item;
     }
+
+    @Override
+    public String toString() {
+        return "White Factory named " + getName();
+    }
 }
