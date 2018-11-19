@@ -1,7 +1,7 @@
 import static common.Color.*;
 
-import shapes.*;
-
+import shapes.Circle;
+import shapes.Triangle;
 import factories.AbstractFactory;
 import factories.BaseFactory;
 
@@ -14,23 +14,23 @@ public class Runner {
 
         System.out.println("\nCreating circles on " + wf);
         for (int i = 0; i < 3; i++) {
-            Shape sh = wf.createCircle();
-            System.out.println("   " + sh);
+            Circle c = wf.createCircle();
+            System.out.println("   " + c);
         }
         System.out.println("\nCreating circles on " + bf);
         for (int i = 0; i < 3; i++) {
-            Shape sh = bf.createCircle();
-            System.out.println("   " + sh);
+            Circle c = bf.createCircle();
+            System.out.println("   " + c);
         }
         System.out.println("\nCreating triangles on " + wf);
         for (int i = 0; i < 3; i++) {
-            Shape sh = wf.createTriangle();
-            System.out.println("   " + sh);
+            Triangle t = wf.createTriangle();
+            System.out.println("   " + t);
         }
         System.out.println("\nCreating triangles on " + bf);
         for (int i = 0; i < 3; i++) {
-            Shape sh = bf.createTriangle();
-            System.out.println("   " + sh);
+            Triangle t = bf.createTriangle();
+            System.out.println("   " + t);
         }
     }
 }
