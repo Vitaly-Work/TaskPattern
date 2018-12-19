@@ -1,7 +1,9 @@
 package factories;
 
 import shapes.Circle;
-import shapes.*;
+import shapes.Triangle;
+import shapes.WhiteCircle;
+import shapes.WhiteTriangle;
 
 public class WhiteFactory extends BaseFactory {
 
